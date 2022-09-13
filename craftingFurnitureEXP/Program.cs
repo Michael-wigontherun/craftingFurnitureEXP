@@ -36,7 +36,9 @@ namespace craftingFurnitureEXP
 
             if (EditrorIDs.IsEmpty())
             {
+                Console.WriteLine();
                 Console.WriteLine("No Keyword editorIDs found, no patches possable");
+                Console.WriteLine();
                 return;
             }
             else if (SyenthesisSetting.logging.VerboseLogging)
